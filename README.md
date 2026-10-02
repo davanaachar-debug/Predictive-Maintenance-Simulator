@@ -61,10 +61,13 @@ Predictive-Maintenance-Simulator/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
+## ⚙️ How the System Works
 
-⚙️ How the System Works
 The simulator follows these main steps:
+
+```text
 Sensor Data Simulation
         ↓
 Temperature / Vibration / Current / RPM
@@ -78,51 +81,75 @@ Fault Classification
 Maintenance Recommendation
         ↓
 Dashboard Visualization
+```
 
+## 📊 Sensor Parameters
 
-📊 Sensor Parameters
-Parameter	Description
-Temperature	Monitors motor operating temperature
-Vibration	Detects abnormal mechanical vibration
-Current	Monitors motor electrical current
-RPM	Monitors motor rotational speed
+| Parameter | Description |
+|---|---|
+| Temperature | Monitors motor operating temperature |
+| Vibration | Detects abnormal mechanical vibration |
+| Current | Monitors motor electrical current |
+| RPM | Monitors motor rotational speed |
 
+## 🧠 Predictive Maintenance Logic
 
-🧠 Predictive Maintenance Logic
 The system evaluates the simulated sensor values and calculates a machine health score.
+
 Based on the sensor conditions, the system can identify different operating states such as:
+
 - Normal
 - Warning
 - Critical
+
 When abnormal conditions are detected, the system generates a maintenance recommendation.
 
+## 💻 Installation
 
-💻 Installation
-Clone the repository:
+### Clone the repository
+
+```bash
 git clone https://github.com/davanaachar-debug/Predictive-Maintenance-Simulator.git
+```
 
-Open the project folder:
+### Open the project folder
+
+```bash
 cd Predictive-Maintenance-Simulator
+```
 
-Create a virtual environment:
+### Create a virtual environment
+
+```bash
 python -m venv venv
+```
 
-Activate the virtual environment on Windows:
+### Activate the virtual environment on Windows
+
+```bash
 venv\Scripts\activate
+```
 
-Install the required Python packages:
-pip install numpy pandas matplotlib
+### Install the required Python packages
 
+```bash
+pip install -r requirements.txt
+```
 
-▶️ Running the Project
+## ▶️ Running the Project
+
 Run the main program using:
+
+```bash
 python src/main.py
+```
 
 The simulator will generate motor sensor data, analyze the machine condition, detect faults, and display the maintenance monitoring results.
 
+## 📈 Output
 
-📈 Output
 The project provides:
+
 - Simulated motor sensor readings
 - Machine health score
 - Fault status
@@ -131,9 +158,10 @@ The project provides:
 - Sensor trend graphs
 - Predictive maintenance dashboard
 
+## 🎯 Applications
 
-🎯 Applications
 This type of predictive maintenance system can be applied to:
+
 - Industrial motors
 - Manufacturing equipment
 - Automated machinery
@@ -141,9 +169,10 @@ This type of predictive maintenance system can be applied to:
 - Conveyor systems
 - Electrical machines
 
+## 🔮 Future Improvements
 
-🔮 Future Improvements
 Possible future enhancements include:
+
 - Real-time IoT sensor integration
 - Arduino or ESP32 integration
 - Raspberry Pi implementation
@@ -153,17 +182,18 @@ Possible future enhancements include:
 - Email or mobile maintenance alerts
 - Remaining Useful Life (RUL) prediction
 
-
-👨‍💻 Author
-D S Davana
-Electronics & Communication Engineering
-
-
-📄 License
-This project is licensed under the MIT License.
-
 ## 📊 Dashboard
 
 <p align="center">
   <img src="dashboard.png" alt="Predictive Maintenance Dashboard" width="900">
 </p>
+
+## 👨‍💻 Author
+
+**D S Davana**
+
+Electronics & Communication Engineering
+
+## 📄 License
+
+This project is licensed under the MIT License.

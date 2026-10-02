@@ -1,5 +1,11 @@
 # Predictive Maintenance Simulator
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?logo=matplotlib)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 A Python-based predictive maintenance simulator designed to monitor the health and operating condition of an industrial motor using simulated sensor data.
 
 ## 📌 Project Overview

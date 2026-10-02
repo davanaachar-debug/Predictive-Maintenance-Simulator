@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Predictive Maintenance Simulator
 
 A Python-based predictive maintenance simulator for monitoring the health and operating condition of an industrial motor.
@@ -51,3 +52,6 @@ Predictive-Maintenance-Simulator/
 │
 ├── .gitignore
 └── README.md
+=======
+# Predictive-Maintenance-Simulator
+>>>>>>> 45fd94b2f8fe49068503bfe10f997f69e0558830

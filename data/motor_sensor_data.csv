@@ -1,31 +1,31 @@
 cycle,temperature,vibration,current,rpm,health_score,status,recommendation,faults
-1,46.35,1.43,3.85,1489.15,100,NORMAL,Continue normal operation,None
-2,49.19,1.81,4.21,1466.65,100,NORMAL,Continue normal operation,None
-3,50.84,1.72,4.17,1487.53,100,NORMAL,Continue normal operation,None
-4,52.48,2.13,4.46,1471.98,100,NORMAL,Continue normal operation,None
-5,52.86,1.82,4.08,1466.24,100,NORMAL,Continue normal operation,None
-6,52.69,2.23,4.09,1454.36,100,NORMAL,Continue normal operation,None
-7,55.5,2.64,4.19,1448.62,100,NORMAL,Continue normal operation,None
-8,56.84,2.66,4.83,1453.84,100,NORMAL,Continue normal operation,None
-9,58.13,2.58,4.48,1449.19,100,NORMAL,Continue normal operation,None
-10,58.78,3.02,4.51,1446.64,85,NORMAL,Continue normal operation,None
-11,58.81,2.65,5.17,1451.97,100,NORMAL,Continue normal operation,None
-12,64.87,3.14,5.12,1431.85,85,NORMAL,Continue normal operation,None
-13,65.89,3.4,5.17,1432.18,70,WARNING,Schedule maintenance inspection,None
-14,64.13,3.06,4.89,1438.47,85,NORMAL,Continue normal operation,None
-15,66.22,3.67,5.57,1432.95,60,WARNING,Schedule maintenance inspection,None
-16,64.75,3.91,5.38,1437.52,85,NORMAL,Continue normal operation,None
-17,69.81,4.03,5.81,1414.61,60,WARNING,Schedule maintenance inspection,None
-18,67.34,4.36,5.84,1418.1,60,WARNING,Schedule maintenance inspection,None
-19,72.05,4.23,5.41,1427.76,70,WARNING,Schedule maintenance inspection,WARNING: HIGH TEMPERATURE
-20,74.5,4.1,5.78,1400.17,60,WARNING,Schedule maintenance inspection,WARNING: HIGH TEMPERATURE
-21,74.62,4.11,6.17,1407.88,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH CURRENT"
-22,77.67,4.39,5.87,1413.73,60,WARNING,Schedule maintenance inspection,WARNING: HIGH TEMPERATURE
-23,76.41,4.39,6.04,1401.86,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH CURRENT"
-24,80.7,4.73,6.08,1412.73,45,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-25,76.25,5.22,6.32,1380.68,35,CRITICAL,Stop machine and perform maintenance,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-26,78.29,4.92,6.36,1398.05,50,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-27,82.92,5.18,6.37,1392.77,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-28,85.19,5.55,6.69,1382.89,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-29,82.59,5.32,6.95,1392.94,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
-30,86.31,6.11,6.98,1370.47,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, CRITICAL: EXCESSIVE VIBRATION, WARNING: HIGH CURRENT"
+1,49.16,1.25,3.67,1496.39,100,NORMAL,Continue normal operation,None
+2,53.52,1.91,4.18,1476.07,100,NORMAL,Continue normal operation,None
+3,50.55,1.87,4.04,1484.73,100,NORMAL,Continue normal operation,None
+4,52.72,1.74,4.46,1463.22,100,NORMAL,Continue normal operation,None
+5,55.76,2.27,4.33,1459.93,100,NORMAL,Continue normal operation,None
+6,56.39,2.57,4.56,1450.7,100,NORMAL,Continue normal operation,None
+7,55.53,2.58,4.43,1468.91,100,NORMAL,Continue normal operation,None
+8,59.07,2.63,4.58,1461.3,100,NORMAL,Continue normal operation,None
+9,61.64,2.52,4.54,1445.18,100,NORMAL,Continue normal operation,None
+10,63.99,3.02,4.62,1440.9,85,NORMAL,Continue normal operation,None
+11,59.59,3.07,4.77,1448.07,85,NORMAL,Continue normal operation,None
+12,59.54,2.93,5.31,1428.76,100,NORMAL,Continue normal operation,None
+13,60.74,3.48,5.29,1448.24,85,NORMAL,Continue normal operation,None
+14,62.0,3.8,5.17,1441.59,85,NORMAL,Continue normal operation,None
+15,68.09,3.77,5.44,1428.8,70,WARNING,Schedule maintenance inspection,None
+16,64.53,4.02,5.63,1434.18,75,WARNING,Schedule maintenance inspection,None
+17,72.38,3.96,5.19,1431.79,70,WARNING,Schedule maintenance inspection,WARNING: HIGH TEMPERATURE
+18,66.68,3.79,5.34,1416.67,70,WARNING,Schedule maintenance inspection,None
+19,72.98,4.11,5.49,1430.98,70,WARNING,Schedule maintenance inspection,WARNING: HIGH TEMPERATURE
+20,73.58,4.15,6.02,1413.28,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH CURRENT"
+21,74.64,4.79,5.57,1401.18,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION"
+22,77.34,4.21,6.07,1417.73,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH CURRENT"
+23,72.61,4.77,5.75,1414.57,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION"
+24,74.28,4.97,6.04,1396.62,50,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+25,78.19,4.81,6.02,1403.12,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+26,77.48,4.87,6.63,1405.91,60,WARNING,Schedule maintenance inspection,"WARNING: HIGH TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+27,82.88,5.6,6.77,1399.05,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+28,84.2,5.67,6.31,1396.89,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+29,86.18,5.83,6.51,1384.91,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"
+30,82.71,5.84,6.74,1369.79,20,CRITICAL,Stop machine and perform maintenance,"CRITICAL: OVER TEMPERATURE, WARNING: HIGH VIBRATION, WARNING: HIGH CURRENT"

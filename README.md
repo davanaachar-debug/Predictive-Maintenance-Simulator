@@ -161,3 +161,7 @@ Electronics & Communication Engineering
 
 📄 License
 This project is licensed under the MIT License.
+
+## 📊 Dashboard
+
+![Predictive Maintenance Dashboard](dashboard.png)
